@@ -22,10 +22,8 @@ a {
 }
 
 .wrapper {
-    /* overflow-x: hidden; */
-    /* width: 1400px;
+    max-width: 1600px;
     margin: 0px auto;
-    position: relative; */
     overflow-x: clip;
 
 }
