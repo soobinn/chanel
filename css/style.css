@@ -36,7 +36,7 @@ header {
     position: fixed;
     top: 0px;
     z-index: 5;
-
+    border-bottom: 1px solid #f8f8f4;
 
 }
 
@@ -209,7 +209,7 @@ nav {
     width: 100%;
     position: relative;
     background: #191917;
-    height: 200vh;
+    /* height: 200vh; */
     min-height: 1400px;
 }
 
@@ -306,8 +306,16 @@ img {
 .main3 {
     background-color: #191917;
     width: 100%;
-    min-height: 1000px;
+    min-height: 800px;
     position: relative;
+}
+
+.main3>div {
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-container {
@@ -602,7 +610,7 @@ img {
     display: block;
     width: 100%;
     height: 200vh;
-    padding-top: 15%;
+    padding-top: 200px;
     background-color: #191917;
 
 }
@@ -632,11 +640,11 @@ img {
 
     color: #f8f8f4;
     float: right;
-    top: 10%;
+    top: 100px;
     width: 400px;
     position: absolute;
     left: 50%;
-    height: 200vh;
+    height: 1400px;
 
 }
 
@@ -669,7 +677,7 @@ img {
 .content4 {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 800px;
     background-color: #191917;
 
 }
@@ -725,8 +733,9 @@ img {
 
 /* .conten5 */
 .content5 {
+    position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 800px;
     background: #f8f8f4;
 }
 
@@ -740,7 +749,8 @@ img {
 
 .content5_text {
     text-align: center;
-
+    position: absolute;
+    top: 50%;
     margin: 0px auto;
     line-height: 43px;
 }
@@ -865,13 +875,14 @@ footer {
 .back-to-position2,
 .back-to-position3,
 .back-to-position4,
-.back-to-position5 {
+.back-to-position5,
+.back-to-position6 {
     opacity: 0;
     transition: 1.5s;
 }
 
 .back-to-position.to-up {
-    transform: translateY(200px)
+    transform: translate(0,0%);
 }
 
 /* 기본값 */
@@ -884,18 +895,22 @@ footer {
 }
 
 .back-to-position5.to-up {
-
+    
     transform: translate(-20%, 0);
-
+    
 }
 
+.back-to-position6.to-up {
+    transform: translate(30%, 0px);
+}
 
 
 .show2 .back-to-position,
 .show2 .back-to-position2,
 .show2 .back-to-position3,
 .show2 .back-to-position4,
-.show2 .back-to-position5 {
+.show2 .back-to-position5,
+.show2 .back-to-position6  {
     opacity: 1;
 }
 
@@ -904,7 +919,7 @@ footer {
 /* show2 */
 
 .show2 .back-to-position {
-    transform: translateX(0);
+    transform: translateY(-50%);
 }
 
 .show2 .back-to-position2 {
@@ -923,5 +938,10 @@ footer {
 
 .show2 .back-to-position5 {
     transform: translate(0, 0);
+
+}
+
+.show2 .back-to-position6 {
+    transform: translate(0, 0px);
 
 }
