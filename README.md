@@ -1,1 +1,1 @@
-# channel
+# chanel
