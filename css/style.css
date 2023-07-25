@@ -210,6 +210,7 @@ nav {
     position: relative;
     background: #191917;
     height: 200vh;
+    min-height: 1400px;
 }
 
 
@@ -247,7 +248,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 1000px;
     background: #191917;
 }
 
@@ -305,7 +306,7 @@ img {
 .main3 {
     background-color: #191917;
     width: 100%;
-    height: 100vh;
+    min-height: 1000px;
     position: relative;
 }
 
@@ -423,7 +424,7 @@ img {
 .content {
     position: relative;
     width: 100%;
-    height: 150vh;
+    min-height: 1000px;
     background-color: #191917;
 }
 
