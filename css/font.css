@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'ONE-Mobile-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Title.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.main_text1,
+.main_text3,
+.main2,
+.swiper-pagination-fraction,
+.content2,
+.content3,
+.content4,.list a,.footer_left,.main3_text {
+
+    font-family: 'ONE-Mobile-Title';
+
+}
+
+.main_text2,
+.content,
+.swiper-pagination-current,
+.swiper-pagination-total,
+.content5,#cursor>div::after,.list span,.insta,.main_text1 h1:nth-child(2){
+
+    font-family: 'Nanum Myeongjo', serif;
+
+
+}
