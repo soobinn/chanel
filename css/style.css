@@ -36,16 +36,18 @@ header {
     height: 80px;
     transition: 0.8s;
     position: fixed;
-    top:0px;
+    top: 0px;
     z-index: 5;
 
 
 }
-.up{
+
+.up {
     transition: 0.8s;
-    top:-80px;
+    top: -80px;
 
 }
+
 nav {
 
     display: flex;
@@ -109,20 +111,21 @@ nav {
 
     transition: 0.3s ease-in-out;
 }
-.list{
+
+.list {
     width: 50%;
     position: fixed;
     height: 100%;
     display: flex;
     background: #bb8d8d;
-   left: 100%;
+    left: 100%;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
 
 }
 
-.list a{
+.list a {
     font-size: 1.5em;
     width: 200px;
     height: 70px;
@@ -131,47 +134,50 @@ nav {
     line-height: 70px;
 }
 
-.list a:hover{
+.list a:hover {
     color: #f8f8f4;
     transition: 0.3s;
 }
-.list span{
+
+.list span {
     font-size: 1.8em;
     font-style: italic;
 }
 
-.insta{
+.insta {
     position: absolute;
     bottom: 5%;
     font-size: 0.5em;
 
 }
 
-.insta:hover{
+.insta:hover {
     color: #f8f8f4;
 }
-.list_logo{
-    
+
+.list_logo {
+
     position: absolute;
     right: 0;
     bottom: 0;
 
 }
-.list_logo>a{
-    
+
+.list_logo>a {
+
     width: 100px;
     height: 80px;
 
 }
 
-.show{
+.show {
 
     left: 50%;
     transition: 0.5s;
 }
 
-.close{
-    
+.close {
+
     width: 80px;
     height: 80px;
     position: absolute;
@@ -181,11 +187,11 @@ nav {
 }
 
 
-.close a{
-    
+.close a {
+
     width: 25%;
     height: 25%;
-    background:#f8f8f4;
+    background: #f8f8f4;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -194,10 +200,12 @@ nav {
     transition: 0.3s ease-in-out;
 
 }
+
 .close>a:hover {
     width: 60%;
     height: 60%;
 }
+
 /* 메인 */
 .main {
     width: 100%;
@@ -241,7 +249,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height:100vh;
+    height: 100vh;
     background: #191917;
 }
 
@@ -343,7 +351,8 @@ img {
     object-fit: scale-down;
 }
 
-.swiper-slide:nth-child(3) img,.swiper-slide:nth-child(6) img{
+.swiper-slide:nth-child(3) img,
+.swiper-slide:nth-child(6) img {
     object-fit: cover;
 }
 
@@ -406,9 +415,10 @@ img {
 
 
 }
-.color{
 
-    color: #191917  !important;
+.color {
+
+    color: #191917 !important;
 }
 
 /* content */
@@ -438,6 +448,7 @@ img {
     width: 450px;
     height: 650px;
 }
+
 .content_img img {
 
     width: 450px;
@@ -577,11 +588,13 @@ img {
     transition: 0.5s;
 
 }
+
 .content2_text a:hover {
     background: #bb8d8d;
-    color:#f8f8f4;
+    color: #f8f8f4;
     transition: 0.5s;
 }
+
 /* .content3 */
 
 .content3 {
@@ -739,14 +752,15 @@ img {
     display: inline;
     font-size: 4em;
     text-align: center
-    
 }
-.content5_text a:hover{
+
+.content5_text a:hover {
     transition: 0.3s;
     color: #bb8d8d;
     transition: 0.3s;
     border-bottom: 2px solid #bb8d8d;
 }
+
 .content5_text span {
     letter-spacing: 30px;
 }
@@ -768,9 +782,9 @@ footer {
 
 }
 
-.footer_left{
+.footer_left {
 
-    color:#f8f8f4;
+    color: #f8f8f4;
     width: 19%;
     height: 50px;
     text-align: center;
@@ -779,26 +793,28 @@ footer {
 
 
 }
+
 .footer_right {
     width: 100px;
     height: 100%;
 
 }
 
-.footer_right{
-    
+.footer_right {
+
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.footer_right img{
- 
-        width: 60px;
-        height: 40px;}
+.footer_right img {
 
-   
+    width: 60px;
+    height: 40px;
+}
+
+
 /* 마우스커서 */
 #cursor {
     z-index: 6;
@@ -831,42 +847,46 @@ footer {
 #cursor>div::after {
     content: attr(data-name);
     position: absolute;
-    color:#f8f8f4;
+    color: #f8f8f4;
     font-size: 1px;
     transform: scale(0.45);
     white-space: nowrap;
 }
 
-.cursor{
+.cursor {
 
-    background-color:transparent !important;
+    background-color: transparent !important;
     border: 1px solid #bb8d8d !important;
 }
 
 
 /* 스크롤 매직 */
 
-.back-to-position,.back-to-position2,.back-to-position3,.back-to-position4,.back-to-position5{
+.back-to-position,
+.back-to-position2,
+.back-to-position3,
+.back-to-position4,
+.back-to-position5 {
     opacity: 0;
     transition: 1.5s;
 }
 
-.back-to-position.to-up{
-    transform:translateY(200px)
+.back-to-position.to-up {
+    transform: translateY(200px)
 }
 
 /* 기본값 */
-.back-to-position2.to-up{
-   top: 10%;
+.back-to-position2.to-up {
+    top: 10%;
 }
 
-.back-to-position4.to-up{
+.back-to-position4.to-up {
     transform: translate(30%, 0);
 }
 
-.back-to-position5.to-up{
+.back-to-position5.to-up {
 
-    transform: translate(-20%,0);
+    transform: translate(-20%, 0);
 
 }
 
@@ -876,7 +896,7 @@ footer {
 .show2 .back-to-position2,
 .show2 .back-to-position3,
 .show2 .back-to-position4,
-.show2 .back-to-position5{
+.show2 .back-to-position5 {
     opacity: 1;
 }
 
@@ -884,25 +904,25 @@ footer {
 
 /* show2 */
 
-.show2 .back-to-position{
+.show2 .back-to-position {
     transform: translateX(0);
 }
 
-.show2 .back-to-position2{
+.show2 .back-to-position2 {
     transform: translate(-50%, 10%);
 }
-  
-.show2 .back-to-position3{
-    transform: translate(0,-30%);
+
+.show2 .back-to-position3 {
+    transform: translate(0, -30%);
 
 }
-  
-.show2 .back-to-position4{
-    transform: translate(0,0);
+
+.show2 .back-to-position4 {
+    transform: translate(0, 0);
 
 }
-.show2 .back-to-position5{
-    transform: translate(0,0);
+
+.show2 .back-to-position5 {
+    transform: translate(0, 0);
 
 }
-  

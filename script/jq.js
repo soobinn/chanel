@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
 
-    $('.main2 p').slideDown()
+    $('.main2 p').slideDown();
 
 });

@@ -68,13 +68,13 @@ window.onload = function () {
 
     //메뉴
 
-    document.querySelector('.menu_circle').addEventListener('click',function(){
+    document.querySelector('.menu_circle').addEventListener('click', function () {
 
         document.querySelector('.list').classList.add('show')
 
 
     });
-    document.querySelector('.close>a').addEventListener('click',function(){
+    document.querySelector('.close>a').addEventListener('click', function () {
 
         document.querySelector('.list').classList.remove('show')
 
@@ -82,27 +82,27 @@ window.onload = function () {
     });
 
     const spyEls = document.querySelectorAll('.scroll-spy');
-    spyEls.forEach(function(spyEl){
-    
+    spyEls.forEach(function (spyEl) {
+
         new ScrollMagic
             .Scene({
                 triggerElement: spyEl, //보임의 유무 감시
-                triggerHook:0.4
+                triggerHook: 0.4
             })
-            .setClassToggle(spyEl,'show2')
+            .setClassToggle(spyEl, 'show2')
             .addTo(new ScrollMagic.Controller());
-    
+
     });
 
     // 메뉴스크롤
-    window.addEventListener('wheel',(event) => {
+    window.addEventListener('wheel', (event) => {
         let wheel = event.wheelDeltaY;
-      
-        if(wheel > 0) {
+
+        if (wheel > 0) {
             document.querySelector('header').classList.remove('up')
         }
         else { // (wheel < 0)
-          document.querySelector('header').classList.add('up')
+            document.querySelector('header').classList.add('up')
         }
 
     });

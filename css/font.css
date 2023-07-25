@@ -17,7 +17,10 @@
 .swiper-pagination-fraction,
 .content2,
 .content3,
-.content4,.list a,.footer_left,.main3_text {
+.content4,
+.list a,
+.footer_left,
+.main3_text {
 
     font-family: 'ONE-Mobile-Title';
 
@@ -27,7 +30,11 @@
 .content,
 .swiper-pagination-current,
 .swiper-pagination-total,
-.content5,#cursor>div::after,.list span,.insta,.main_text1 h1:nth-child(2){
+.content5,
+#cursor>div::after,
+.list span,
+.insta,
+.main_text1 h1:nth-child(2) {
 
     font-family: 'Nanum Myeongjo', serif;
 
