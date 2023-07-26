@@ -5,8 +5,6 @@ window.onload = function () {
     let text = document.createTextNode('No.');
     document.querySelector('.swiper-pagination').prepend(text);
 
-
-
     const cursorParent = document.getElementById('cursor');
     const cursorChild = cursorParent.children[0];
     window.addEventListener('mousemove', mousemove)

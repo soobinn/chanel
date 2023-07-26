@@ -752,7 +752,6 @@ img {
     position: absolute;
     top: 50%;
     margin: 0px auto;
-    line-height: 43px;
 }
 
 .content5_text a,
@@ -882,7 +881,7 @@ footer {
 }
 
 .back-to-position.to-up {
-    transform: translate(0,0%);
+    transform: translate(0, 0%);
 }
 
 /* 기본값 */
@@ -895,9 +894,9 @@ footer {
 }
 
 .back-to-position5.to-up {
-    
+
     transform: translate(-20%, 0);
-    
+
 }
 
 .back-to-position6.to-up {
@@ -910,7 +909,7 @@ footer {
 .show2 .back-to-position3,
 .show2 .back-to-position4,
 .show2 .back-to-position5,
-.show2 .back-to-position6  {
+.show2 .back-to-position6 {
     opacity: 1;
 }
 
