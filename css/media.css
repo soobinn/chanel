@@ -89,16 +89,6 @@
         font-size: 2.5em;
     }
 
-    .content2_text_h1 {
-        font-size: 3.5em;
-
-    }
-
-    .content2_text_h2 {
-
-        font-size: 4em;
-    }
-
     .content3_text_h1 {
         font-size: 5em;
 
@@ -160,14 +150,9 @@
         font-size: 0.9em;
     }
 
-    .content2_text_h1,
-    .content2_text_h2 {
-        font-size: 3em;
-    }
+    .content2_text {
+        height: 200vh;
 
-    .content2_text_h1 {
-        color: #bb8d8d;
-        ;
     }
 
     .content4_text3,
@@ -266,6 +251,9 @@
         font-size: 2em;
     }
 
+    .content2_text {
+        height: 150vh;
+    }
 
     .content_text2 {
         bottom: 25%;
@@ -279,39 +267,10 @@
         bottom: 5%;
     }
 
+    .content2_text1 {
 
-    .content2 {
+        padding: 50px 5%;
 
-        position: relative;
-        height: 165vh;
-        display: block;
-
-    }
-
-    .content2_img {
-
-        width: 65%;
-        height: 40%;
-
-    }
-
-    .content2_text {
-        height: 160vh;
-        position: absolute;
-        top: 5%;
-        right: 0;
-        width: 100%;
-
-    }
-
-    .content2_text_p1 {
-
-        margin-top: 15%;
-    }
-
-    .content2_text_p2,
-    .content2_text_p4 {
-        margin-top: 5%;
     }
 
     .content3_text {
@@ -367,7 +326,6 @@
     .show2 .back-to-position2 a {
         width: 100%;
         height: 100%;
-        /* margin: 0px auto; */
     }
 
     .main2 p {
@@ -385,18 +343,25 @@
         font-size: 0.8em;
     }
 
+    .content2_text1 h1:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .content2_text {
+        height: 120vh;
+    }
+
     .content2_img img {
         height: 100%;
     }
 
-    .content2_text_h1,
-    .content2_text_h2 {
-        font-size: 2.5em;
+    .content2_text1 {
+        padding: 50px 5%;
     }
 
-    .content2_text_h1 {
-        color: #bb8d8d;
-        ;
+    .content2_text2 {
+        padding: 10%;
+        font-size: 1.5vw;
     }
 
     .content3_text {
