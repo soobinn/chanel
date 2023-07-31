@@ -735,7 +735,7 @@ img {
 .content5 {
     position: relative;
     width: 100%;
-    min-height: 800px;
+    height: 100vh;
     background: #f8f8f4;
 }
 
