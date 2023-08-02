@@ -808,7 +808,7 @@ footer {
     content: attr(data-name);
     position: absolute;
     color: #f8f8f4;
-    font-size: 1px;
+    font-size: 1vw;
     transform: scale(0.45);
     white-space: nowrap;
 }
